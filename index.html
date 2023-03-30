@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en-US"> 
+<title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    </head> 
+<body> 
+    <div class="row">
+        <div class="column">
+          <img src="images/img-1.jpg" alt="Squirrel" style="width: 330px"  onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="images/img-2.jpg" alt="White Horse" style="width:330px" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="images/img-3.jpg" alt="Polar Beer" style="width:330px" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="images/img-4.jpg" alt="Cheetah" style="width:330px" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="images/img-4.jpg" alt="Blue Parrot" style="width:330px" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="images/img-6.jpg" alt="Zibra" style="width:330px" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="images/img-7.jpg" alt="Yellow Birds" style="width:330px" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="images/img-7.jpg" alt="B&W Cat" style="width:330px" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="images/img-9.jpg" alt="B&W Cat" style="width:330px" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="images/img-10.jpg" alt="B&W Cat" style="width:330px" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="images/img-11.jpg" alt="B&W Cat" style="width:330px" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="images/img-12.jpg" alt="B&W Cat" style="width:330px" onclick="myFunction(this);">
+          </div>
+      </div>
+      
+      <div class="container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img id="expandedImg" style="width:100%">
+        <div id="imgtext"></div>
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>
